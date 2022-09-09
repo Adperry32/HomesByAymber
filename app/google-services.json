@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "289173474662",
+    "project_id": "homesbyaymber",
+    "storage_bucket": "homesbyaymber.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289173474662:android:aebcb5ebb2441c88414ca7",
+        "android_client_info": {
+          "package_name": "com.example.homesbyaymber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289173474662-bbg0rorjoqbqrmmgbh62gmh0rv4j9nek.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.homesbyaymber",
+            "certificate_hash": "00055759dea685d10a963050c3963e924798342a"
+          }
+        },
+        {
+          "client_id": "289173474662-dd4sm4ctfjplihea4tg4ria57he92frc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzlgg0BtE_EqNSdtPR099arJlmGUBKEe0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289173474662-dd4sm4ctfjplihea4tg4ria57he92frc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
