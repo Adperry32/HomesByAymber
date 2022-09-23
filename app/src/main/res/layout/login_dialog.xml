@@ -1,6 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    >
+
+    <FrameLayout
+        android:layout_width="278dp"
+        android:layout_height="225dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="81dp"
+        android:background="@drawable/border_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:layout_width="59dp"
+            android:layout_height="30dp"
+            android:text="LOGIN"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="110dp"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft ="15dp"
+            android:id="@+id/logN"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:background="#DCDCDC"
+            android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+            android:textSize ="10sp"
+            android:drawablePadding="3dp"
+            android:hint="Email"
+            android:padding="10dp"
+            android:textColor="@color/burntOrange"
+            android:textStyle="italic"
+            />
+
+        <EditText
+            android:layout_marginTop="105dp"
+            android:layout_marginLeft ="15dp"
+            android:id="@+id/password"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:background="#DCDCDC"
+            android:drawableLeft="@drawable/ic_baseline_security_24"
+            android:textSize ="10sp"
+            android:drawablePadding="3dp"
+            android:hint="Password"
+            android:padding="10dp"
+            android:textColor="@color/burntOrange"
+            android:textStyle="italic"
+            />
+
+        <Button
+            android:id="@+id/logNext"
+            style="@style/FirebaseUI.Button"
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginRight="55dp"
+            android:background="@color/orange"
+            android:backgroundTint="@color/burntOrange"
+            android:text="Next"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/cancel"
+            style="@style/FirebaseUI.Button"
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginRight="165dp"
+            android:background="@color/burntOrange"
+            android:backgroundTint="@color/burntOrange"
+            android:text="Cancel"
+            android:textSize="10sp" />
+    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
