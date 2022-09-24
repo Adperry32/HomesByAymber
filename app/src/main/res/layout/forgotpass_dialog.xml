@@ -1,6 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="277dp"
+    android:layout_height="224dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="100dp"
+    >
+
+    <FrameLayout
+        android:layout_width="278dp"
+        android:layout_height="225dp"
+        android:background="@drawable/forgot_border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:layout_width="155dp"
+            android:layout_height="30dp"
+            android:text="Forgot Password"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="67dp"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="105dp"
+            android:layout_marginLeft="45dp"
+            android:text="   If You have any account, a password    reset will be sent to the email provided"
+            android:textSize="10sp"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/logN"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="65dp"
+            android:background="#DCDCDC"
+            android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+            android:drawablePadding="3dp"
+            android:hint="Email"
+            android:padding="10dp"
+            android:textColor="@color/burntOrange"
+            android:textSize="10sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/chkPassword"
+            style="@style/FirebaseUI.Button"
+            android:layout_width="61dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginRight="48dp"
+            android:backgroundTint="@color/coolBlue"
+            android:text="Submit"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/cancel"
+            style="@style/FirebaseUI.Button"
+            android:layout_width="68dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginRight="165dp"
+            android:backgroundTint="@color/coolBlue"
+            android:text="Cancel"
+            android:textSize="8sp" />
+    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/homes"
+    android:background="@drawable/aymhomes"
     tools:context=".MainActivity">
 
 
@@ -16,11 +16,13 @@
         android:layout_marginTop="156dp"
         android:layout_marginEnd="68dp"
         android:background="@drawable/homes_logo"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="59dp"
         android:layout_height="24dp"
         android:layout_marginStart="251dp"
@@ -35,6 +37,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="88dp"
         android:layout_height="23dp"
         android:layout_marginStart="208dp"

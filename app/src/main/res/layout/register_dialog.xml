@@ -2,16 +2,14 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_width="299dp"
+    android:layout_height="399dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="60dp">
 
     <FrameLayout
         android:layout_width="300dp"
         android:layout_height="400dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="172dp"
-        android:layout_marginEnd="81dp"
         android:background="@drawable/reg_border"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,116 +19,110 @@
         <TextView
             android:layout_width="85dp"
             android:layout_height="30dp"
-            android:text="Register"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="25dp"
             android:layout_marginLeft="110dp"
+            android:layout_marginTop="25dp"
+            android:text="Register"
+            android:textColor="@color/black"
             android:textSize="20sp"
-            />
+            android:textStyle="bold" />
 
         <EditText
-            android:layout_marginTop="65dp"
-            android:layout_marginLeft ="25dp"
             android:id="@+id/firstName"
             android:layout_width="250dp"
             android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="65dp"
             android:background="#A9A9A9"
-            android:textSize ="10sp"
             android:drawablePadding="3dp"
             android:hint="First Name"
-            android:textColorHint="@color/burntOrange"
             android:padding="10dp"
-            android:textStyle="italic"
-            />
+            android:textColorHint="@color/burntOrange"
+            android:textSize="10sp"
+            android:textStyle="italic" />
 
         <EditText
-            android:layout_marginTop="105dp"
-            android:layout_marginLeft ="25dp"
             android:id="@+id/password"
             android:layout_width="250dp"
             android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="105dp"
             android:background="#A9A9A9"
-            android:textSize ="10sp"
             android:drawablePadding="3dp"
             android:hint="Last Name"
             android:padding="10dp"
             android:textColorHint="@color/burntOrange"
-            android:textStyle="italic"
-            />
+            android:textSize="10sp"
+            android:textStyle="italic" />
 
         <EditText
-            android:textColorHint="@color/burntOrange"
-            android:layout_marginTop="145dp"
-            android:layout_marginLeft ="25dp"
             android:id="@+id/age"
             android:layout_width="250dp"
             android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="145dp"
             android:background="#A9A9A9"
-            android:textSize ="10sp"
             android:drawablePadding="3dp"
             android:hint="Age"
             android:padding="10dp"
-            android:textStyle="italic"
-            />
+            android:textColorHint="@color/burntOrange"
+            android:textSize="10sp"
+            android:textStyle="italic" />
 
         <EditText
-            android:layout_marginTop="185dp"
-            android:layout_marginLeft ="25dp"
             android:id="@+id/optional"
             android:layout_width="250dp"
             android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="185dp"
             android:background="#A9A9A9"
-            android:textSize ="10sp"
             android:drawablePadding="3dp"
             android:hint="Spouse Name (optional)"
             android:padding="10dp"
             android:textColorHint="@color/burntOrange"
-            android:textStyle="italic"
-            />
+            android:textSize="10sp"
+            android:textStyle="italic" />
 
         <EditText
-            android:layout_marginTop="225dp"
-            android:layout_marginLeft ="25dp"
             android:id="@+id/reEmail"
             android:layout_width="250dp"
             android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="225dp"
             android:background="#A9A9A9"
-            android:textSize ="10sp"
             android:drawablePadding="3dp"
             android:hint="Email"
             android:padding="10dp"
             android:textColorHint="@color/burntOrange"
-            android:textStyle="italic"
-            />
+            android:textSize="10sp"
+            android:textStyle="italic" />
+
         <EditText
-            android:layout_marginTop="265dp"
-            android:layout_marginLeft ="25dp"
             android:id="@+id/regPassword"
             android:layout_width="250dp"
             android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="265dp"
             android:background="#A9A9A9"
-            android:textSize ="10sp"
             android:drawablePadding="3dp"
             android:hint="Password"
             android:padding="10dp"
             android:textColorHint="@color/burntOrange"
-            android:textStyle="italic"
-            />
+            android:textSize="10sp"
+            android:textStyle="italic" />
+
         <EditText
-            android:layout_marginTop="305dp"
-            android:layout_marginLeft ="25dp"
             android:id="@+id/confirmPass"
             android:layout_width="250dp"
             android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="305dp"
             android:background="#A9A9A9"
-            android:textSize ="10sp"
             android:drawablePadding="3dp"
             android:hint="Confirm Password"
             android:padding="10dp"
             android:textColorHint="@color/burntOrange"
-            android:textStyle="italic"
-            />
+            android:textSize="10sp"
+            android:textStyle="italic" />
 
 
         <Button
